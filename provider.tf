@@ -5,11 +5,6 @@ terraform {
 			version = "~> 3.0"
 		}
 	}	
-	 default_tags {
-	    tags = {
-	      hashicorp-learn = "refresh"
-	    }
-	  }
 }
 
 provider "aws" {
